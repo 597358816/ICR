@@ -69,7 +69,7 @@ worker:
 
   reward:
     reward_type: function
-    score_function: /vepfs-mlp2/c20250203/250602012/EasyR1/examples/score_function/math.py:math_compute_score
+    score_function: ./score_function/math.py:math_compute_score
 
 trainer:
   total_episodes: 10
